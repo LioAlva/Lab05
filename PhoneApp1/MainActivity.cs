@@ -11,6 +11,7 @@ namespace PhoneApp1
         {
             base.OnCreate(bundle);
 
+
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
             var PhoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
