@@ -65,8 +65,8 @@ namespace PhoneApp
 
             var TextValidator = FindViewById<TextView>(Resource.Id.TextValidator);
 
-            string StudentEmail = "luisperso_015@hotmail.com";
-            string Password = "Troyano12345_";
+            string StudentEmail = "xxxx";
+            string Password = "xxxxxx";
 
             string myDevice = Android.Provider
                 .Settings.Secure.GetString(ContentResolver, Android.Provider.Settings.Secure.AndroidId);
